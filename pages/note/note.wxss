@@ -10,6 +10,7 @@
 }
 
 .o-cell_bd {
+  width: 100%;
   -webkit-box-flex: 1;
   -webki-align-items: flex-start;
          align-items: flex-start;
