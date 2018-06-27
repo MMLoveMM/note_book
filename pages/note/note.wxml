@@ -65,7 +65,7 @@
       </view>
     </view>
 
-    <view style='padding-top: 20px; padding-left: 18%;'>
+    <view style='padding-top: 20px; text-align: center;'>
       <button formType='submit' type='primary' loading='{{loading}}'>
         <text>确认</text>
       </button>
