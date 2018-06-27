@@ -1,0 +1,77 @@
+<!--pages/order/order.wxml-->
+<view class='o-container'>
+  <form catchsubmit="formSubmit" cachreset="formReset">
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入早餐金额' />
+        </view>
+      </view>
+    </view>
+
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入午餐金额' />
+        </view>
+      </view>
+    </view>
+
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入晚餐金额' />
+        </view>
+      </view>
+    </view>
+
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入果蔬金额' />
+        </view>
+      </view>
+    </view>
+
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入零食金额' />
+        </view>
+      </view>
+    </view>
+
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入网购金额' />
+        </view>
+      </view>
+    </view>
+
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入转账金额' />
+        </view>
+      </view>
+    </view>
+
+    <view class='o-cells'>
+      <view class='o-cell o-cell_input'>
+        <view class='o-cell_bd'>
+          <input name='emptyName' class='o-input' placeholder='请输入交通金额' />
+        </view>
+      </view>
+    </view>
+
+    <view style='padding-top: 20px; padding-left: 18%;'>
+      <button formType='submit' type='primary' loading='{{loading}}'>
+        <text>确认</text>
+      </button>
+      <button formType='reset'>
+        <text>重制</text>
+      </button>
+    </view>
+  </form>
+</view>
