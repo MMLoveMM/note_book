@@ -14,30 +14,12 @@ Page({
   formSubmit: function(e) {
     var form = this;
 
-    if(!!e.detail.value.emptyName) {
-      wx.request({
-        url: getUserURL,
-        data: { name: e.detail.value.emptyName },
-        success: function (request) {
-          if (!!request.data) {
-            wx.showModal({
-              content: '欢迎 ' + request.data.userName + ' 使用点餐系统，祝您使用愉快。',
-              showCancel: false
-            })
-          } else {
-            wx.showModal({
-              content: '对不起，您不是本公司员工',
-              showCancel: false
-            })
-          }
-        }
-      })
-    }else {
-      wx.showModal({
-        content: '请输入您的姓名',
-        showCancel: false
-      })
-    }
+    var formData = e.detail.value;
+
+    wx.showModal({
+      title: '记账提示框',
+      content: '是否提交今日账单',
+    })
   },
 
   /**
